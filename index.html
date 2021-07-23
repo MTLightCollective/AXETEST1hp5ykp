@@ -49,20 +49,14 @@
                 ></video>
             </a-assets>
 
-            <a-marker
-                type="pattern"
-                preset="custom"
-                url="assets/marker.patt"
-                videohandler
-                smooth="true"
-                smoothCount="10"
-                smoothTolerance="0.01"
-                smoothThreshold="5"
-                raycaster="objects: .clickable"
-                emitevents="true"
-                cursor="fuse: false; rayOrigin: mouse;"
-                id="markerA"
-            >
+    <a-nft
+      type="nft"
+      url="assets/NFT1/ARSAMURAI"
+      smooth="true"
+      smoothCount="10"
+      smoothTolerance=".01"
+      smoothThreshold="5"
+    >
                 <a-video
                     src="#vid"
                     scale="1 1 1"
@@ -71,7 +65,7 @@
                     class="clickable"
                     gesture-handler
                 ></a-video>
-            </a-marker>
+            </a-nft>
 
             <a-entity camera></a-entity>
         </a-scene>
